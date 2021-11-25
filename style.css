@@ -78,7 +78,7 @@ h3,
   border: 1px solid #ddd;
   background: #fff;
   border-radius: 6px;
-  font-family: Lato, sans-serif
+  font-family: Lato, sans-serif;
   color: #888;
 }
 .todo__task__input:focus {
@@ -98,7 +98,7 @@ h3,
 .todo__task {
   overflow: hidden;
   padding: 20px 0;
-  border-bottom: 1px solid #eee
+  border-bottom: 1px solid #eee;
 
   display: flex;
   justify-content: space-between;
@@ -111,7 +111,7 @@ h3,
 .todo__task__text {
   padding-left: 10px;
   box-sizing: border-box;
-  font-size: 18px
+  font-size: 18px;
   width: 226px;
 }
 .todo__task__input {
