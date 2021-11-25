@@ -86,7 +86,7 @@ h3,
 }
 
 /* New Task */
-.todo__add-task__title{
+.todo__add-task__title {
   display: block;
   margin: 0 0 20px;
 }
@@ -108,7 +108,7 @@ h3,
 .todo__checkbox {
   margin: 0 10px;
 }
-.todo__task__text{
+.todo__task__text {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px
@@ -127,14 +127,14 @@ h3,
 }
 
 /* Completed */
-.todo__completed-task__text{
+.todo__completed-task__text {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 
-.todo__edit__input{
+.todo__edit__input {
   display: inline-block;
   width: 224px;
 }
