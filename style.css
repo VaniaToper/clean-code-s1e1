@@ -19,10 +19,11 @@ button {
 li > * {
   vertical-align: middle;
 }
-ul li input[type='text'] {
+.todo__task__input, .todo__edit__text {
   display: none;
 }
-.header {
+
+.header, .todo {
   width: 500px;
   margin: 0 auto;
   display: block;
@@ -31,19 +32,13 @@ ul li input[type='text'] {
 .header .header__img {
   width: 100%;
 }
+
 .header .header__title {
   font-family: fantasy, cursive;
 }
 
-.todo {
-  display: block;
-  width: 500px;
-  margin: 0 auto 0;
-}
-.todo__task__input {
-  width: 56%;
-  display: inline-block;
-  flex-grow: 1;
+.todo{
+  text-align: left;
 }
 
 .todo__button {
@@ -59,7 +54,7 @@ ul li input[type='text'] {
   color: #3a3a3a;
 }
 /* Heading */
-h3,
+.todo__title,
 .todo__add-task__title {
   color: #333;
   font-weight: 700;
@@ -70,6 +65,9 @@ h3,
   text-transform: uppercase;
 }
 .todo__task__input {
+  width: 56%;
+  display: inline-block;
+  flex-grow: 1;
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -100,7 +98,6 @@ h3,
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -138,10 +135,6 @@ h3,
 .todo__edit__input {
   display: inline-block;
   width: 224px;
-}
-
-.todo__edit__text {
-  display: none;
 }
 
 @media (max-width: 768px) {
