@@ -19,11 +19,13 @@ button {
 li > * {
   vertical-align: middle;
 }
-.todo__task__input, .todo__edit__text {
+.todo__task__input,
+.todo__edit__text {
   display: none;
 }
 
-.header, .todo {
+.header,
+.todo {
   width: 500px;
   margin: 0 auto;
   display: block;
@@ -37,7 +39,7 @@ li > * {
   font-family: fantasy, cursive;
 }
 
-.todo{
+.todo {
   text-align: left;
 }
 
@@ -88,10 +90,9 @@ li > * {
   display: block;
   margin: 0 0 20px;
 }
-.todo__add-task__input {
-  width: 318px;
+#todo__add-task__input {
+  width: 84%;
 }
-
 
 /* Task list */
 .todo__task {
@@ -132,9 +133,13 @@ li > * {
 
 /* Edit Task */
 
-.todo__edit__input {
+.todo__save__input {
   display: inline-block;
   width: 224px;
+}
+.todo__task__input {
+  flex-grow: 1;
+  display: none;
 }
 
 @media (max-width: 768px) {
