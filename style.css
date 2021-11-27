@@ -19,10 +19,6 @@ button {
 li > * {
   vertical-align: middle;
 }
-.todo__task__input,
-.todo__edit__text {
-  display: none;
-}
 
 .header,
 .todo {
@@ -34,7 +30,9 @@ li > * {
 .header .header__img {
   width: 100%;
 }
-
+.header{
+  margin-bottom: 15px;
+}
 .header .header__title {
   font-family: fantasy, cursive;
 }
@@ -91,6 +89,7 @@ li > * {
   margin: 0 0 20px;
 }
 #todo__add-task__input {
+  display: inline-block;
   width: 84%;
 }
 
@@ -112,6 +111,7 @@ li > * {
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
+  flex-grow: 1;
 }
 .todo__task__input {
   width: 226px;
@@ -126,21 +126,27 @@ li > * {
 }
 
 /* Completed */
-.todo__completed-task__text {
+.todo__completed-tasks label {
   text-decoration: line-through;
   color: #888;
 }
-
 /* Edit Task */
+.todo__task__input {
+  flex-grow: 1;
+}
 
-.todo__save__input {
+.todo__task__input {
+  display: none;
+}
+
+.todo__edit .todo__task__input {
   display: inline-block;
   width: 224px;
 }
-.todo__task__input {
-  flex-grow: 1;
+.todo__edit .todo__task__text {
   display: none;
 }
+
 
 @media (max-width: 768px) {
   .header {
