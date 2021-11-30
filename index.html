@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>Todo App</title>
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" media="screen" charset="utf-8" />
   </head>
   <body>
@@ -11,11 +11,11 @@
       <a class="header__title" href="https://goal-life.com/page/method/matrix__eisenhower">Want more details?</a>
     </header>
     <main class="todo">
-      <article class="todo__add-task">
+      <section class="todo__add-task">
         <label class="todo__add-title" for="todo__add-input">Add Item</label>
-        <input id="todo__add-task__input" class="todo__input" type="text" />
+        <input id="todo__add-task__input" class="todo__input todo__add-task__input" type="text" />
         <button class="todo__button">Add</button>
-      </article>
+      </section>
       <h1 class="todo__title">Todo</h1>
       <ul class="todo__incomplete-tasks">
         <li class="todo__task">
