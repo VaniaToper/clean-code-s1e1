@@ -95,7 +95,7 @@ li > * {
 }
 
 /* New Task */
-.todo__add-task__title {
+.todo__add-title {
   display: block;
   margin: 0 0 20px;
 }
@@ -162,9 +162,9 @@ li > * {
   display: none;
 }
 
-.todo__add-task__input {
+#todo__add-task__input {
   display: inline-block;
-  width: 84%;
+  width: 83%;
 }
 
 @media (max-width: 768px) {
